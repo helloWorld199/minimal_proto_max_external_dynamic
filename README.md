@@ -1,4 +1,4 @@
-Simple max external with a protobuf dependency which gives Error 193 on M4L.
+Simple max external with a protobuf dependency which gives Error 1114 on M4L. The external is compiled with dynamic linking.
 
 ## Dependencies
 
