@@ -2,7 +2,7 @@ PROJECT(rpc)
 CMAKE_MINIMUM_REQUIRED (VERSION 3.0.0)
 SET(CMAKE_CXX_FLAGS "-g -Wall -std=c++11")
 
-# Set the runtime library to /MTd for debug builds
+# Set the runtime library to /MDd for debug builds
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} /MDd")
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} /MDd")
 
