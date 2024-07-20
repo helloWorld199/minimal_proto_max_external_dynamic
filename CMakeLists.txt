@@ -8,7 +8,7 @@ project(my_simple_external)
 set(C74_MIN_API_DIR "C:/Users/rizzo/OneDrive/Desktop/TESI/MMM4WINDOWS/source/min-api")
 include(${C74_MIN_API_DIR}/script/min-pretarget.cmake)
 
-# Set the runtime library to /MTd for debug builds
+# Set the runtime library to /MDd for debug builds
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} /MDd")
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} /MDd")
 
